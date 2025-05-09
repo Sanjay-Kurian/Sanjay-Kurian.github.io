@@ -34,6 +34,21 @@
   $('.social-links a').tooltip();
 
   //tech stack smooth scrolling
-  
+  $(document).ready(function () {
+    let techStack = $(".tech-stack");
+    let items = techStack.children();
+
+    items.each(function () {
+      $(this).clone().appendTo(techStack);
+    });
+
+    function scrollLoop() {
+      techStack.animate({ left: "-=5px" }, 100, "linear", function () {
+        scrollLoop(); // Recursively keep it scrolling
+      });
+    }
+
+    scrollLoop();
+  });
 
 })(jQuery);

@@ -378,8 +378,8 @@ strong {
 /* tech stack */
 .tech-stack-wrapper {
     overflow: hidden;
-    white-space: nowrap;
     position: relative;
+    width: 100%;
 }
 
 .tech-stack {
@@ -390,7 +390,7 @@ strong {
 
 @keyframes scroll-animation {
     from {
-        transform: translateX(0%);
+        transform: translateX(100%);
     }
     to {
         transform: translateX(-100%);
