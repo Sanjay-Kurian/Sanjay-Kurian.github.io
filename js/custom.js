@@ -30,9 +30,6 @@
     });
   });
 
-  // TOOLTIP
-  $('.social-links a').tooltip();
-
   //tech stack smooth scrolling
   $(document).ready(function () {
     let techStack = $(".tech-stack");
