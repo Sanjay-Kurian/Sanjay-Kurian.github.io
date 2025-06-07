@@ -362,24 +362,40 @@ strong {
 
 /* tech stack */
 .tech-stack-wrapper {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 .tech-stack {
-    display: flex;
-    gap: 30px;
-    animation: scroll-animation 20s linear infinite;
+  display: flex;
+  width: max-content;
+  animation: scroll-animation 20s linear infinite;
+}
+
+.tech-scroll-content {
+  display: flex;
+  gap: 30px;
+}
+
+.tech-scroll-content i {
+  font-size: 3rem;
+  color: #444;
+  transition: transform 0.3s ease;
+}
+
+.tech-scroll-content i:hover {
+  transform: scale(1.15);
+  color: #007bff;
 }
 
 @keyframes scroll-animation {
-  from {
-        transform: translateX(0%);
-    }
-  to {
-        transform: translateX(-100%);
-    }
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* education and experince */
