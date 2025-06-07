@@ -371,6 +371,7 @@ strong {
     display: flex;
     gap: 30px;
     animation: scroll-animation 20s linear infinite;
+    min-width: max-content;
 }
 
 @keyframes scroll-animation {
