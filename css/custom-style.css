@@ -371,16 +371,15 @@ strong {
     display: flex;
     gap: 30px;
     animation: scroll-animation 20s linear infinite;
-    min-width: max-content;
 }
 
 @keyframes scroll-animation {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+  from {
+        transform: translateX(100%);
+    }
+  to {
+        transform: translateX(-100%);
+    }
 }
 
 /* education and experince */
