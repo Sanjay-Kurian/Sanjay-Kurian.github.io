@@ -482,6 +482,19 @@ strong {
   height: 250px;
 }
 
+.project-description ul {
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.project-description ul li {
+  margin-bottom: 5px;
+  list-style-type: disc;
+}
+
 .owl-carousel .owl-nav span {
   display: none;
 }
@@ -492,7 +505,7 @@ strong {
   padding: 0;
   display: block;
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translate(0, -50%);
   font-family: 'bootstrap-icons';
   font-size: 100px;
