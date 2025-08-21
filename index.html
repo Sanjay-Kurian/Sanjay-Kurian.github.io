@@ -110,86 +110,7 @@
 
       </div>
     </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section class="project py-5" id="project">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-11 text-center mx-auto col-12">
-
-          <div class="col-lg-8 mx-auto">
-            <h2>Recent Projects</h2>
-          </div>
-
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <div class="project-info">
-                <img src="images/projects/BikeStoreAnalysis.png" class="img-fluid" alt="project image">
-              </div><br>
-              <div class="project-description">
-                <h3>Bike Store Sales & Customer Insights Dashboard</h3>
-                <b>Tools: </b> Python, Pandas, SQL, PyODBC, SQLAlchemy, Kaggle API
-                <p>Developed a comprehensive data analysis pipeline to extract, transform, and analyze sales, inventory, and customer behavior for a multi-store bike retailer. Leveraged SQL queries and Python to process transactional data, identify trends, and generate actionable business insights. The system connects to a SQL database for dynamic querying and integrates CSV datasets for exploratory analysis.
-                </p>
-                <h4>Highlights</h4>
-                <ul>
-                  <li>Sales Performance Tracking: Analyzed monthly/yearly revenue trends, identifying peak sales periods (e.g., $337K in April 2018).</li>
-                  <li>Customer Segmentation: Classified buyers by purchase frequency, recency, and spending power (e.g., "big spenders", "repeat buyers").</li>
-                  <li>Staff Performance Ranking: Ranked employees by order volume, revealing top performers like Marcelene Boyer (553 orders).</li>
-                  <li>Product Affinity Analysis: Discovered frequently co-purchased items (e.g., Electra bikes) using SQL joins.</li>
-                  <li>Inventory & Hierarchy Insights: Tracked stock levels across stores and mapped staff reporting structures.</li>
-                </ul>
-                <br>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="project-info">
-                <img src="images/projects/BudgetTracking.png" class="img-fluid" alt="project image">
-              </div><br>
-              <div class="project-description">
-                <h3>Local Expense Tracking & Data Cleaning Platform</h3>
-                <b>Tools: </b> Flask, pandas, openpyxl, Power BI, Plotly, RapidFuzz, Splitwise API
-                <p>Built a privacy-focused financial management tool that automates expense data cleaning, categorization, and visualization. The app pulls live data from the Splitwise API, standardizes inconsistent entries using fuzzy matching, and enables users to clean and fill missing fields through a browser-based Flask interface with autocomplete and reference lookups. Cleaned data is automatically appended to structured Excel tables and visualized using Power BI dashboard.
-                </p>
-                <h4>Highlights</h4>
-                <ul>
-                  <li>Replaced manual Excel edits with an interactive, local web form interface.</li>
-                  <li>Integrated fuzzy matching (RapidFuzz) to standardize payee/description fields.</li>
-                  <li>Enabled persistent incremental updates with version tracking logic.</li>
-                  <li>Supported dynamic DAX measures, bookmark-based filtering, and category drilldowns in Power BI.</li>
-                  <li>Offered secure offline export options (image, PDF) for sensitive data reporting.</li>
-                </ul>
-                <br>
-              </div>
-            </div>
-
-            <div class="item">
-              <div class="project-info">
-                <img src="images/projects/AudienceAttentionMeasurement.png" class="img-fluid" alt="project image">
-              </div><br>
-              <div class="project-description">
-                <h3>Audience Attention Measurement System</h3>
-                <b>Tools: </b> Python, OpenCV, NumPy, OS, VideoCapture, Frame Extraction
-                <p>Developed a foundational computer vision pipeline that processes video footage to extract frames for analyzing audience attention. Using OpenCV, the system reads video files and captures individual frames in real-time, saving them as structured images. This enables downstream analysis such as face detection or gaze tracking. The solution also includes dynamic directory creation and basic error handling to support smooth, repeatable execution.
-                </p>
-                <h4>Highlights</h4>
-                <ul>
-                  <li>Extracted and saved video frames using OpenCV's VideoCapture API.</li>
-                  <li>Automated folder creation to organize captured frame data.</li>
-                  <li>Enabled real-time loop processing with conditional termination logic.</li>
-                  <li>Built-in error handling for missing paths and file I/O operations.</li>
-                  <li>Designed as a flexible base for emotion detection or attention scoring extensions.</li>
-                </ul>
-                <br>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
+  </section> 
 
   <!-- tech stack -->
   <section id="tech-stack">
@@ -234,14 +155,127 @@
       </div>
     </div>
   </div>
-</section>
+  <br><br>
+  </section>
+
+  <!-- Experince -->
+  <section class="py-5 d-lg-flex justify-content-center align-items-center" id="experience">
+    <div class="container">
+
+      <div>
+        <h2 class="mb-4 text-center">Experience</h2>
+
+        <div class="timeline timeline-border">
+          <div class="timeline-item">
+            <div class="timeline-date"><h6>Oct 2024 – Apr 2025</h6></div>
+            <div class="timeline-content">
+              <h3><span>FREELANCE DEVELOPER</span><small>Smart Spend Studio | Remote</small>
+              </h3>
+
+              <ul>
+                <li>Built a Flask-based expense management tool that reduced manual Excel workflows by 80%, streamlining data entry with editable forms and autocomplete inputs</li>
+                <li>Improved data consistency by 90% through -driven autocomplete and structured category mapping using openpyxl and reference Excel tables</li>
+                <li>Automated transaction categorization with RapidFuzz, achieving 85%+ accuracy by normalizing Plaid API’s nested JSON and applying fuzzy matching techniques</li>
+                <li>Cut reporting prep time by 70% by automating dynamic Excel updates with pandas and openpyxl, formatted for financial analysis</li>
+                <li>Enhanced financial visibility with interactive Power BI dashboards, increasing stakeholder engagement by 60%, and ensured offline access via Plotly chart fallbacks</li>
+                <li>Modeled financial transaction data using dbt, enabling modular SQL transformations and improving pipeline maintainability by 40%</li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date"><h6>Aug 2021 – Dec 2022</h6></div>
+            <div class="timeline-content">
+              <h3><span>BUSINESS INTELLIGENCE ANALYST</span><small>Tendercuts Pvt. Ltd | Chennai, TN</small>
+              </h3>
+
+              <ul>
+                <li>Constructed, implemented, and maintained enterprise-grade BI dashboards in Tableau and Power BI, consolidating multi-source sales, inventory, and logistics data into a single source of truth</li>
+                <li>Analyzed, and interpreted complex datasets using SQL & Python, identifying operational discrepancies that improved efficiency by 10% and boosted revenue from Value-Added Products by 15%</li>
+                <li>Designed and optimized ETL workflows and database structures to ensure data integrity, accuracy, and accessibility across teams</li>
+                <li>Partnered with cross-functional stakeholders to define KPIs, success metrics, and BI requirements, translating business needs into actionable data solutions</li>
+                <li>Developed interactive dashboards and automated reports that reduced manual reporting time by 40%, enabling faster decision-making</li>
+                <li>Utilized query optimization and performance monitoring techniques to improve data retrieval times and reporting efficiency</li>
+                <li>Provided training and documentation to operational teams, fostering data literacy and effective use of BI tools across the organization</li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date"><h6>Feb 2021 - Aug 2021</h6></div>
+            <div class="timeline-content">
+              <h3><span>COMPUTER AIDED ENGINEERING ANALYST (CAE)</span><small>Udvavisk Technologies Pvt. Ltd | Chennai,
+                  TN</small></h3>
+              <ul>
+                <li>Designed and conducted smoke and regression analysis to study smoke flow and device effective
+                  evacuation measures, improving evacuation time by 30%</li>
+                <li>Designed and analyzed fluid flow in various geometries to enhance the structural integrity of
+                  machines
+                  and tanks, ensuring 20% more efficiency and reducing material failure by 15%</li>
+                <li>Developed innovative solutions for optimizing fluid dynamics, leading to a 25% improvement in
+                  performance and a 10% improvement in the reliability of industrial equipment</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date"><h6>Apr 2019 - May 2021</h6></div>
+            <div class="timeline-content">
+              <h3><span>SUMMER INTERN</span><small>TVS Motor Company | Chennai, TN</small></h3>
+              <ul>
+                <li>Conducted an in-depth study on consumer behavior within the 3-wheeler industry, focusing on service
+                  awareness, parts of life, and the current market scenario</li>
+                <li>Analyzed data provides a comprehensive overview of consumer nature, resulting in a 15% increase in
+                  parts purchases</li>
+                <li>Identified key factors affecting consumer satisfaction and provided actionable insights to improve
+                  and
+                  fine-tune current service offerings based on present-day market conditions, leading to a 20% upgrade
+                  in
+                  service efficiency</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- <div class="timeline-wrapper">
+            <div class="timeline-yr box">
+              <span>2019 - 2020</span>
+            </div>
+            <div class="timeline-info-box">
+              <h3><span>CO-AUTHOR AND ENGINEER (RESEARCH PROJECT) </span><small>Anna University (College Of Engineering)
+                  | Chennai, TN</small></h3>
+              <ul>
+                <li>Developed a high-strength, lightweight aluminium copper alloy for mechanical and tribological
+                  applications through the heat-treatment process, achieving a 25% increase in material strength. </li>
+                <li>Machined two aluminium alloy castings (4% by weight) for mechanical and tribological testing
+                  according to ASTM standards, using gravity casting and squeeze casting techniques, ensuring 100%
+                  compliance with quality benchmarks. </li>
+                <li>Investigated tensile and wear activities of heat-treated specimens using UTM and pin-on-disc wear
+                  tester, resulting in a 20% improvement in wear resistance.</li>
+                <li>Conducted morphological and worn surface analysis using SEM and XRD, demonstrating that heat
+                  treated specimens showed a 30% improvement in mechanical properties compared to as-cast and
+                  squeeze-cast specimens.</li>
+                <li>Prepared comprehensive documentation encompassing experimental methodologies, testing procedures,
+                  analysis techniques, and research findings, ensuring reproducibility, compliance with quality
+                  standards,
+                  and effective knowledge transfer for end-users. </li>
+              </ul>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
   <!-- Education -->
   <section class="py-5 d-lg-flex justify-content-center align-items-center" id="education">
     <div class="container">
 
       <div>
-        <h2 class="mb-4">Education</h2>
+        <h2 class="mb-4 text-center">Education</h2>
 
         <div class="timeline">
           <div class="timeline-wrapper">
@@ -300,104 +334,84 @@
     </div>
   </section>
 
-  <!-- Experince -->
-  <section class="py-5 d-lg-flex justify-content-center align-items-center" id="experience">
+  <!-- PROJECTS -->
+  <section class="project py-5" id="project">
     <div class="container">
 
-      <div>
-        <h2 class="mb-4">Experience</h2>
+      <div class="row">
+        <div class="col-lg-11 mx-auto col-12">
 
-        <div class="timeline">
-          <div class="timeline-wrapper">
-            <div class="timeline-yr box">
-              <span>2021 – 2022</span>
-            </div>
-            <div class="timeline-info-box">
-              <h3><span>BUSINESS INTELLIGENCE ANALYST</span><small>Tendercuts Pvt. Ltd | Chennai, TN</small>
-              </h3>
-
-              <ul>
-                <li>Implemented operational refinements and data analytics tools, resulting in a 15% rise in revenue
-                  for poultry, meat, and Value-Added Products.</li>
-                <li>Planned, coordinated, and analyzed supply chain processes, resulting in a growth of Value-Added
-                  Products from 4% to 15% and a revenue upsurge from 10% to 15%.</li>
-                <li>Leveraged data tools such as MySQL, Python, Microsoft Excel, and Tableau to analyze datasets,
-                  leading
-                  to data-driven decisions that contributed to a 10% increase in operational efficiency.</li>
-              </ul>
-
-            </div>
+          <div class="col-lg-8 mx-auto text-center">
+            <h2>Recent Projects</h2>
           </div>
 
-          <div class="timeline-wrapper">
-            <div class="timeline-yr box">
-              <span>2021 (6mos.)</span>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="project-info">
+                <img src="images/projects/BudgetTracking.png" class="img-fluid" alt="project image">
+              </div><br>
+              <div class="project-description">
+                <h3 class="text-center">Local Expense Tracking & Data Cleaning Platform</h3>
+                <p><b>Tools: </b> Flask, pandas, openpyxl, Power BI, Plotly, RapidFuzz, Splitwise API</p>
+                <p>Built a privacy-focused financial management tool that automates expense data cleaning, categorization, and visualization. The app pulls live data from the Splitwise API, standardizes inconsistent entries using fuzzy matching, and enables users to clean and fill missing fields through a browser-based Flask interface with autocomplete and reference lookups. Cleaned data is automatically appended to structured Excel tables and visualized using Power BI dashboard.
+                </p>
+                <h4 class="text-center">Highlights</h4>
+                <ul>
+                  <li>Replaced manual Excel edits with an interactive, local web form interface</li>
+                  <li>Integrated fuzzy matching (RapidFuzz) to standardize payee/description fields</li>
+                  <li>Enabled persistent incremental updates with version tracking logic</li>
+                  <li>Supported dynamic DAX measures, bookmark-based filtering, and category drilldowns in Power BI</li>
+                  <li>Offered secure offline export options (image, PDF) for sensitive data reporting</li>
+                </ul>
+                <br>
+              </div>
             </div>
-            <div class="timeline-info-box">
-              <h3><span>COMPUTER AIDED ENGINEERING ANALYST (CAE)</span><small>Udvavisk Technologies Pvt. Ltd | Chennai,
-                  TN</small></h3>
-              <ul>
-                <li>Designed and conducted smoke and regression analysis to study smoke flow and device effective
-                  evacuation measures, improving evacuation time by 30%.</li>
-                <li>Designed and analyzed fluid flow in various geometries to enhance the structural integrity of
-                  machines
-                  and tanks, ensuring 20% more efficiency and reducing material failure by 15%.</li>
-                <li>Developed innovative solutions for optimizing fluid dynamics, leading to a 25% improvement in
-                  performance and a 10% improvement in the reliability of industrial equipment.</li>
-              </ul>
-            </div>
-          </div>
 
-          <div class="timeline-wrapper">
-            <div class="timeline-yr box">
-              <span>2019 (2 mos.)</span>
+            <div class="item">
+              <div class="project-info">
+                <img src="images/projects/AudienceAttentionMeasurement.png" class="img-fluid" alt="project image">
+              </div><br>
+              <div class="project-description">
+                <h3 class="text-center">Audience Attention Measurement System</h3>
+                <p><b>Tools: </b> Python, OpenCV, NumPy, OS, VideoCapture, Frame Extraction</p>
+                <p>Developed a foundational computer vision pipeline that processes video footage to extract frames for analyzing audience attention. Using OpenCV, the system reads video files and captures individual frames in real-time, saving them as structured images. This enables downstream analysis such as face detection or gaze tracking. The solution also includes dynamic directory creation and basic error handling to support smooth, repeatable execution.
+                </p>
+                <h4>Highlights</h4>
+                <ul>
+                  <li>Extracted and saved video frames using OpenCV's VideoCapture API</li>
+                  <li>Automated folder creation to organize captured frame data</li>
+                  <li>Enabled real-time loop processing with conditional termination logic</li>
+                  <li>Built-in error handling for missing paths and file I/O operations</li>
+                  <li>Designed as a flexible base for emotion detection or attention scoring extensions</li>
+                </ul>
+                <br>
+              </div>
             </div>
-            <div class="timeline-info-box">
-              <h3><span>SUMMER INTERN</span><small>TVS Motor Company | Chennai, TN</small></h3>
-              <ul>
-                <li>Conducted an in-depth study on consumer behavior within the 3-wheeler industry, focusing on service
-                  awareness, parts of life, and the current market scenario.</li>
-                <li>Analyzed data provides a comprehensive overview of consumer nature, resulting in a 15% increase in
-                  parts purchases.</li>
-                <li>Identified key factors affecting consumer satisfaction and provided actionable insights to improve
-                  and
-                  fine-tune current service offerings based on present-day market conditions, leading to a 20% upgrade
-                  in
-                  service efficiency.</li>
-              </ul>
-            </div>
-          </div>
 
-          <div class="timeline-wrapper">
-            <div class="timeline-yr box">
-              <span>2019 - 2020</span>
+            <div class="item">
+              <div class="project-info">
+                <img src="images/projects/BikeStoreAnalysis.png" class="img-fluid" alt="project image">
+              </div><br>
+              <div class="project-description">
+                <h3 class="text-center">Bike Store Sales & Customer Insights Dashboard</h3>
+                <p><b>Tools: </b> Python, Pandas, SQL, PyODBC, SQLAlchemy, Kaggle API</p>
+                <p>Developed a comprehensive data analysis pipeline to extract, transform, and analyze sales, inventory, and customer behavior for a multi-store bike retailer. Leveraged SQL queries and Python to process transactional data, identify trends, and generate actionable business insights. The system connects to a SQL database for dynamic querying and integrates CSV datasets for exploratory analysis.
+                </p>
+                <h4 class="text-center">Highlights</h4>
+                <ul>
+                  <li>Sales Performance Tracking: Analyzed monthly/yearly revenue trends, identifying peak sales periods (e.g., $337K in April 2018)</li>
+                  <li>Customer Segmentation: Classified buyers by purchase frequency, recency, and spending power (e.g., "big spenders", "repeat buyers")</li>
+                  <li>Staff Performance Ranking: Ranked employees by order volume, revealing top performers like Marcelene Boyer (553 orders)</li>
+                  <li>Product Affinity Analysis: Discovered frequently co-purchased items (e.g., Electra bikes) using SQL joins</li>
+                  <li>Inventory & Hierarchy Insights: Tracked stock levels across stores and mapped staff reporting structures</li>
+                </ul>
+                <br>
+              </div>
             </div>
-            <div class="timeline-info-box">
-              <h3><span>CO-AUTHOR AND ENGINEER (RESEARCH PROJECT) </span><small>Anna University (College Of Engineering)
-                  | Chennai, TN</small></h3>
-              <ul>
-                <li>Developed a high-strength, lightweight aluminium copper alloy for mechanical and tribological
-                  applications through the heat-treatment process, achieving a 25% increase in material strength. </li>
-                <li>Machined two aluminium alloy castings (4% by weight) for mechanical and tribological testing
-                  according to ASTM standards, using gravity casting and squeeze casting techniques, ensuring 100%
-                  compliance with quality benchmarks. </li>
-                <li>Investigated tensile and wear activities of heat-treated specimens using UTM and pin-on-disc wear
-                  tester, resulting in a 20% improvement in wear resistance.</li>
-                <li>Conducted morphological and worn surface analysis using SEM and XRD, demonstrating that heat
-                  treated specimens showed a 30% improvement in mechanical properties compared to as-cast and
-                  squeeze-cast specimens.</li>
-                <li>Prepared comprehensive documentation encompassing experimental methodologies, testing procedures,
-                  analysis techniques, and research findings, ensuring reproducibility, compliance with quality
-                  standards,
-                  and effective knowledge transfer for end-users. </li>
-              </ul>
-            </div>
-          </div>
 
+          </div>
         </div>
       </div>
-    </div>
-    </div>
   </section>
 
   <!-- Certifications -->
