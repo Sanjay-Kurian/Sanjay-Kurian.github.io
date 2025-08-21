@@ -31,6 +31,7 @@
   });
 
   //tech stack smooth scrolling
+  /*
   $(document).ready(function () {
     let techStack = $(".tech-stack");
     let items = techStack.children();
@@ -46,6 +47,6 @@
     }
 
     scrollLoop();
-  });
+  });*/
 
 })(jQuery);
