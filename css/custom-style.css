@@ -360,38 +360,8 @@ strong {
   color: #ffffff;
 }
 
-
-.tech-stack-wrapper {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-
-.tech-stack {
-  display: flex;
-  animation: scroll-animation 20s linear infinite;
-}
-
-.tech-scroll-content {
-  display: flex;
-  gap: 30px;
-}
-
-/* Duplicate copy ensures seamless loop */
-.tech-stack > .tech-scroll-content {
-  flex-shrink: 0;
-}
-
-@keyframes scroll-animation {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
 /* tech stack */
-/*.tech-stack-wrapper {
+.tech-stack-wrapper {
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -430,7 +400,7 @@ strong {
   100% {
     transform: translateX(-50%);
   }
-}*/
+}
 
 /* education and experince */
 .timeline-wrapper {
